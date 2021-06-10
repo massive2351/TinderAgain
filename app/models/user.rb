@@ -3,8 +3,8 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-         
+
   validates :name, presence: true
-  
-  eaum gender: { man: 0, woman: 1}
+
+  enum gender: { man: 0, woman: 1 }
 end
