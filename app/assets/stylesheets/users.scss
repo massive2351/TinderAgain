@@ -1,3 +1,7 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
 .sign-up-page {
   max-width: 360px;
   margin: 8px auto 0;
@@ -22,7 +26,6 @@
   height: 38px;
 }
 
-
 @media (max-width: 480px) {
   .sign-up-page {
     max-width: initial;
@@ -43,4 +46,5 @@
       background-color: #fff;
     }
   }
+  
 }
